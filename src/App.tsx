@@ -5,7 +5,7 @@ import { useFonts } from "expo-font";
 import { View, Text } from "react-native";
 import Details from "./screens/Details";
 import Home from "./screens/Home";
-import type { StackParamList } from "./types";
+import type { RootStackParamList } from "./navigation/types";
 
 const theme = {
   ...DefaultTheme,
@@ -15,7 +15,7 @@ const theme = {
   },
 };
 
-const Stack = createStackNavigator<StackParamList>();
+const Stack = createStackNavigator<RootStackParamList>();
 
 const App = () => {
   const [fontsLoaded, error] = useFonts({

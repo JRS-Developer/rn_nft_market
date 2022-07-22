@@ -1,8 +1,3 @@
-export type StackParamList = {
-  Home: undefined;
-  Details: undefined;
-};
-
 export interface NFTDataT {
   id: string;
   name: string;
