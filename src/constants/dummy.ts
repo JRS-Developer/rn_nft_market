@@ -1,6 +1,7 @@
+import { NFTDataT } from "../types";
 import assets from "./assets";
 
-const NFTData = [
+const NFTData: NFTDataT[] = [
   {
     id: "NFT-01",
     name: "Abstracto #312",
