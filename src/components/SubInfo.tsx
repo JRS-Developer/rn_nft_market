@@ -23,12 +23,7 @@ interface EthPriceProps {
   price: number | string;
 }
 
-const people = [
-  assets.person01,
-  assets.person02,
-  assets.person03,
-  assets.person04,
-];
+const people = [assets.person02, assets.person03, assets.person04];
 
 const ImgCmp = ({ imgUrl, index }: ImgCmpProps) => (
   <Image
