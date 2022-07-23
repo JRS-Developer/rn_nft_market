@@ -12,7 +12,7 @@ import { COLORS, FONTS, SIZES } from "../../constants";
 interface Props {
   minWidth: FlexStyle["minWidth"];
   fontSize: TextStyle["fontSize"];
-  handlePress: PressableProps["onPress"];
+  handlePress?: PressableProps["onPress"];
 }
 
 const RectButton = ({ minWidth, fontSize, handlePress, ...props }: Props) => {

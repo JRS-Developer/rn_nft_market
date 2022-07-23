@@ -11,8 +11,9 @@ import { COLORS, SHADOWS, SIZES } from "../../constants";
 
 interface Props {
   imgUrl: ImageSourcePropType;
-  right: number;
-  top: number;
+  left?: number;
+  right?: number;
+  top?: number;
   handlePress?: (e: GestureResponderEvent) => any;
 }
 
